@@ -1,0 +1,8 @@
+/* Blowfish dropdowns (nested menu + language switcher) only use backdrop-blur,
+   so text disappears over light page content. Give them a solid background. */
+.menuhide > div {
+  background-color: rgb(var(--color-neutral));
+}
+.dark .menuhide > div {
+  background-color: rgb(var(--color-neutral-800));
+}
