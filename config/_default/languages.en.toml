@@ -1,0 +1,26 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Nary's Blog"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+  name = "Nary Yeh"
+  image = "https://www.gravatar.com/avatar/f34123bf2509aeaea48b103a9e640b7e?s=200"
+  headline = "Software Engineer"
+  bio = "ML Platform Engineer & Open-Source Contributer"
+  links = [
+    { github = "https://github.com/machichima" },
+    { linkedin = "https://www.linkedin.com/in/nary-yeh-1583b3213/" },
+    { email = "mailto:nary12321@gmail.com" },
+  ]
