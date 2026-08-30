@@ -16,9 +16,8 @@ title = "Nary's Blog"
 
 [params.author]
   name = "Nary Yeh"
-  image = "https://www.gravatar.com/avatar/f34123bf2509aeaea48b103a9e640b7e?s=200"
   headline = "Software Engineer"
-  bio = "ML Platform Engineer & Open-Source Contributer"
+  bio = "AI Infra Engineer & Open-Source Contributor"
   links = [
     { github = "https://github.com/machichima" },
     { linkedin = "https://www.linkedin.com/in/nary-yeh-1583b3213/" },

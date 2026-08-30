@@ -28,7 +28,7 @@ disableTextInHeader = false
 # defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
 
 # highlightCurrentMenuArea = true
-# smartTOC = true
+smartTOC = true
 # smartTOCHideUnfocusedChildren = true
 
 fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384", "sha256"
@@ -50,7 +50,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   layout = "custom" # valid options: page, profile, hero, card, background, custom
   homepageImage = "img/lavalamp.svg" # Background image
   customTitle = "Nary Yeh"
-  customHeadline = "ML Platform Engineer & Open-Source Contributor"
+  customHeadline = "AI Infra Engineer & Open-Source Contributor"
   customLinks = [
     { github = "https://github.com/machichima" },
     { linkedin = "https://www.linkedin.com/in/nary-yeh-1583b3213/" },
