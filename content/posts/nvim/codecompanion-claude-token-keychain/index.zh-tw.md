@@ -19,7 +19,7 @@ setup 的問題。最後發現罪魁禍首是我在 `.zshrc` 裡面 `export CLAU
 [codecompanion.nvim](https://github.com/olimorris/codecompanion.nvim) 的 `claude_code` adapter 用的,
 但放在全域環境裡面 CLI 會優先讀這個, 導致上面說的 bug。這邊紀錄一下原因跟解法。
 
-## 為什麼會一直被登出
+## 問題
 
 `CLAUDE_CODE_OAUTH_TOKEN` 環境變數的優先權**高於** Keychain 裡存的登入憑證, 所以整個流程變成:
 

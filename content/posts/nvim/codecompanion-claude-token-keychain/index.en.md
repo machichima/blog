@@ -15,7 +15,7 @@ draft: false
 
 Recently whenever I used the Fable model in Claude Code CLI, it said I could only use usage credit, and I had to logout + login again in every single new terminal to fix it, which was really annoying. I thought it was a Claude Code bug at first, but my coworker said he didn't run into this, so I started to suspect it was my own setup. It turned out the culprit was the `CLAUDE_CODE_OAUTH_TOKEN` I exported in `.zshrc`. That token is for [codecompanion.nvim](https://github.com/olimorris/codecompanion.nvim)'s `claude_code` adapter, but putting it in the global environment makes the CLI pick it up first, causing the bug above. This post documents the cause and the fix.
 
-## Why the CLI kept logging me out
+## The problem
 
 The `CLAUDE_CODE_OAUTH_TOKEN` environment variable takes **precedence** over the login credentials stored in Keychain, so the whole flow becomes:
 
